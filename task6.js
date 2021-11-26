@@ -2,7 +2,7 @@
     function sumTwoSmallestNumbers(numbers) {  
         //Code here
         var result=numbers.sort((a,b)=>a-b).slice(0,2);
-        var sum=result[0]+result[1]
+        var sum=result[0]+result[1];
         return sum;
 }
         
