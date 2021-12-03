@@ -7,5 +7,5 @@ function letterCount(s){
             } else {
             obj[character] = 1;}
 }
-return freq;
+return obj;
 }
